@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>會考作文：成語與名言練習</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&display=swap">
+<style>
+:root{--warn:#e0a526;--warnbg:#fff3d1;--bg:#fff;--card:#fff;--ink:#6b6b6b;--head:#4f4f4f;--sub:#8c8c8c;--line:#d6dce2;--pink:#ef7389;--hl:#fbdde2;--hl2:#d9ebf7;--soft:#fdf1f3;--acc:#5aa9d8;--accbg:#e2f1fa;--onacc:#fff;--cta:#e9776a;--oncta:#fff;--bad:#d9566d;--badbg:#fde7ea;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--warn:#e8bb4a;--warnbg:#4a3f1c;--bg:#1b1a1c;--card:#242326;--ink:#cbc9ca;--head:#ecebeb;--sub:#9a979a;--line:#3b393d;--pink:#f48ea0;--hl:#4d2d34;--hl2:#24404f;--soft:#2a2226;--acc:#7cc0e8;--accbg:#203541;--onacc:#10222d;--cta:#d9786c;--oncta:#2a1512;--bad:#f08a9b;--badbg:#44262c}}
+:root[data-theme="dark"]{--warn:#e8bb4a;--warnbg:#4a3f1c;--bg:#1b1a1c;--card:#242326;--ink:#cbc9ca;--head:#ecebeb;--sub:#9a979a;--line:#3b393d;--pink:#f48ea0;--hl:#4d2d34;--hl2:#24404f;--soft:#2a2226;--acc:#7cc0e8;--accbg:#203541;--onacc:#10222d;--cta:#d9786c;--oncta:#2a1512;--bad:#f08a9b;--badbg:#44262c}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.9 "Noto Sans TC",-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;letter-spacing:.04em;padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+main{max-width:640px;margin:0 auto;padding:4px 20px 24px}
+header{text-align:center;padding:20px 0 4px}
+h1{font:500 22px/1.4 "Noto Sans TC",sans-serif;color:var(--pink);letter-spacing:.14em;margin:0}
+.eng{font-size:11px;letter-spacing:.32em;color:var(--sub);margin-top:2px}
+.lead{color:var(--sub);text-align:center;font-size:14px;margin:12px 0}
+nav{display:flex;gap:8px;justify-content:center;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding:10px 0;z-index:5;border-bottom:1px solid var(--line)}
+button{font-family:inherit}
+button:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+nav button{flex:0 0 auto;min-height:40px;padding:0 22px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;font:500 15px "Noto Sans TC",sans-serif;letter-spacing:.1em;white-space:nowrap;cursor:pointer}
+nav button[aria-selected="true"]{background:var(--acc);border-color:var(--acc);color:var(--onacc)}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:0 28px 0 0;padding:22px 20px 18px;margin:18px 0;text-align:center}
+.card:has(>.ic:first-child){margin-top:58px;padding-top:12px}
+#rg{background:var(--soft);border-color:transparent;border-radius:28px}
+.pic{margin:0 0 6px;font-size:34px;line-height:1.3;letter-spacing:0}
+.pic svg{display:block;width:100%;max-width:320px;height:auto;margin:0 auto}
+.ic{width:fit-content;min-width:68px;height:68px;margin:8px auto;padding:0 22px;border-radius:34px;background:var(--hl2);display:flex;align-items:center;justify-content:center;gap:4px;font-size:28px;line-height:1;white-space:nowrap}
+.ic:first-child{margin:-56px auto 10px}
+.w{display:block;width:fit-content;max-width:100%;margin:6px auto 4px;font:500 26px/1.5 "Noto Sans TC",sans-serif;color:var(--head);background:linear-gradient(transparent 62%,var(--hl2) 62%);padding:0 8px;letter-spacing:.08em}
+.m{color:var(--sub);margin:6px 0 12px}
+.ex{margin:8px 0;padding:6px 14px;border-left:3px solid var(--pink);text-align:left;background:var(--soft);border-radius:0 14px 14px 0}
+.q{font:500 18px/1.8 "Noto Sans TC",sans-serif;color:var(--head);margin:0 0 6px}
+.zc{display:inline-flex;align-items:center;margin:0 3px}
+.zy{display:inline-flex;align-items:flex-end;margin-left:2px;font:500 12px/1.1 "Noto Sans TC",sans-serif;color:var(--sub);letter-spacing:0}
+.zs{writing-mode:vertical-rl;text-orientation:upright}
+.zt{font-size:12px}
+.pb{min-height:38px;padding:0 18px;margin:2px 0 10px;border:1px solid var(--acc);background:transparent;color:var(--acc);border-radius:999px;font:500 14px "Noto Sans TC",sans-serif;letter-spacing:.08em;cursor:pointer}
+.go{min-height:48px;padding:0 30px;border:0;border-radius:999px;background:var(--cta);color:var(--oncta);font:500 16px "Noto Sans TC",sans-serif;letter-spacing:.15em;cursor:pointer;margin-top:10px}
+.opt{display:block;width:100%;min-height:48px;margin:10px 0;padding:10px 16px;text-align:center;border:1px solid var(--line);background:var(--card);color:var(--head);border-radius:999px;font:500 17px "Noto Sans TC",sans-serif;letter-spacing:.08em;cursor:pointer}
+.opt.ok{background:var(--accbg);border-color:var(--acc)}
+.opt.no{background:var(--badbg);border-color:var(--bad)}
+.fb{min-height:28px;font-weight:500;margin:8px 0 0;color:var(--head)}
+.big{font:500 44px/1.2 "Noto Sans TC",sans-serif;color:var(--pink);margin:8px 0}
+.ck{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;margin-top:8px;color:var(--sub);font-size:15px}
+.ck input{width:22px;height:22px;accent-color:var(--acc)}
+#sn{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0;justify-content:center}
+#cta{position:fixed;left:0;right:0;bottom:0;z-index:9;width:100%;border:0;background:var(--cta);color:var(--oncta);font:500 18px "Noto Sans TC",sans-serif;letter-spacing:.3em;padding:18px 16px calc(18px + env(safe-area-inset-bottom,0px));cursor:pointer}
+.toc{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:10px 0 24px;scroll-margin-top:70px}
+.chip{min-height:44px;padding:0 8px;border:1px solid var(--line);background:var(--card);color:var(--head);border-radius:999px;font:500 16px "Noto Sans TC",sans-serif;letter-spacing:.08em;cursor:pointer}
+.card{scroll-margin-top:130px}
+#r{max-width:720px;margin:0 auto}
+.rd{margin:10px 0;line-height:2.2;text-align:left;font-size:17px}
+.idm{color:inherit;font:inherit}
+.sr{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:6px 0 2px}
+.sb{min-height:38px;padding:0 14px;border:1px solid var(--line);background:var(--card);color:var(--sub);border-radius:999px;font:500 14px "Noto Sans TC",sans-serif;cursor:pointer}
+.sb.st1.on{background:var(--accbg);border-color:var(--acc);color:var(--acc)}
+.sb.st2.on{background:var(--warnbg);border-color:var(--warn);color:var(--head)}
+.chip.st1{background:var(--accbg);border-color:var(--acc)}
+.chip.st2{background:var(--warnbg);border-color:var(--warn)}
+.sc{margin:0 0 10px;padding:6px 14px;border-radius:14px;background:var(--hl2);color:var(--head);font-size:14px;text-align:left}
+#a>.pb{scroll-margin-top:70px}
+#up{position:fixed;right:16px;bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:8;min-height:44px;padding:0 18px;border:1px solid var(--acc);border-radius:999px;background:var(--card);color:var(--acc);font:500 14px "Noto Sans TC",sans-serif;letter-spacing:.08em;box-shadow:0 2px 8px rgba(0,0,0,.14);cursor:pointer}
+.srch{width:100%;min-height:42px;margin:6px 0;padding:6px 16px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font:16px "Noto Sans TC",sans-serif}
+.tbar{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin:4px 0}
+#sb{text-align:center}
+header{position:relative}
+.go2{display:none;position:absolute;right:0;top:22px;min-height:40px;padding:0 22px;border:0;border-radius:999px;background:var(--cta);color:var(--oncta);font:500 15px "Noto Sans TC",sans-serif;letter-spacing:.12em;cursor:pointer}
+@media (min-width:760px){
+main{max-width:980px}
+#p{max-width:640px;margin:0 auto}
+#b{display:grid;grid-template-columns:1fr 1fr;column-gap:24px}
+#b>:not(.card){grid-column:1/-1}
+#b>.card{margin:18px 0 0}
+#cl{display:grid;grid-template-columns:1fr 1fr;column-gap:24px}
+#cl>.card{margin:18px 0 0}
+#sb .toc{grid-template-columns:repeat(4,1fr)}
+.go2{display:inline-block}
+#cta{display:none}
+body{padding-bottom:32px}
+}
+@media (min-width:1000px){
+main{max-width:1240px}
+#a{display:grid;grid-template-columns:230px minmax(0,1fr);column-gap:28px;align-items:start}
+#a>.lead{grid-column:1/-1}
+#sb{position:sticky;top:76px;max-height:calc(100vh - 96px);overflow:auto;padding-right:4px}
+#sb .toc{display:grid!important;grid-template-columns:1fr;margin:8px 0}
+#tb,#hn,#up{display:none}
+#r{max-width:none;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);column-gap:28px;align-items:start}
+#r>.lead,#r>.sl{grid-column:1/-1}
+#ac{grid-column:1}
+#qh{grid-column:2;position:sticky;top:76px}
+}
+@media (prefers-reduced-motion:no-preference){.card,.chip,.opt,.pb,.go,nav button,#cta,#up,.w{transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease,background-color .18s ease,color .18s ease}}
+.opt:active,.chip:active,.go:active,.pb:active{transform:scale(.97)}
+@media (hover:hover){
+#cl>.card:hover,#b>.card:hover{border-color:var(--pink);box-shadow:0 8px 20px rgba(239,115,137,.22);transform:translateY(-4px)}
+#cl>.card:hover .w{background:linear-gradient(transparent 62%,var(--hl) 62%)}
+.chip:hover{border-color:var(--pink);background:var(--soft);color:var(--pink)}
+.opt:not(.ok):not(.no):hover{border-color:var(--pink);background:var(--soft);transform:translateY(-2px)}
+.pb:hover{border-color:var(--pink);color:var(--pink)}
+nav button:not([aria-selected="true"]):hover{border-color:var(--acc);color:var(--acc)}
+.go:hover{transform:translateY(-2px);filter:brightness(.94)}
+#cta:hover{filter:brightness(.94)}
+.ex:hover{border-left-color:var(--acc)}
+}
+.idm{cursor:default}
+.hw{border:0;border-bottom:2px dotted var(--acc);background:transparent;color:var(--head);font:inherit;padding:0 1px;margin:0;cursor:help}
+.hw:hover,.hw:focus-visible{background:var(--hl2)}
+.tipw{position:fixed;z-index:20;max-width:280px;padding:12px 16px;background:var(--card);border:1px solid var(--pink);border-radius:0 18px 18px 18px;box-shadow:0 8px 24px rgba(0,0,0,.18);text-align:left}
+.tw{margin:0 0 4px;font:500 22px/1.6 "Noto Sans TC",sans-serif;color:var(--head)}
+.tm{margin:0;font-size:15px;line-height:1.7;color:var(--ink)}
+.tg{display:inline-block;margin:8px 0 0;padding:0 10px;border-radius:999px;background:var(--hl);color:var(--pink);font-size:12px}
+.sl{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:6px 0 12px}
+#cl{padding-bottom:60vh}
+.card.flash{border-color:var(--pink);box-shadow:0 0 0 4px var(--hl)}
+#fab{position:fixed;right:20px;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:9;min-height:56px;padding:0 28px;border:0;border-radius:999px;background:var(--cta);color:var(--oncta);font:500 17px "Noto Sans TC",sans-serif;letter-spacing:.2em;box-shadow:0 6px 18px rgba(0,0,0,.22);cursor:pointer}
+#fab:hover{filter:brightness(.94)}
+.tbl{width:100%;border-collapse:collapse;margin:12px 0;font-size:16px}
+.tbl th,.tbl td{border:1px solid var(--line);padding:8px 10px;text-align:center}
+.tbl th{background:var(--hl2);color:var(--head);font-weight:500}
+.hw.sv{border-bottom-style:solid;background:var(--warnbg)}
+.tk{margin:6px 0 0;font-size:12px;color:var(--sub)}
+@media (min-width:760px){.vg{display:grid;grid-template-columns:1fr 1fr;column-gap:24px}}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<main>
+<header><h1>會考作文練習</h1><div class="eng">IDIOM &amp; QUOTE PRACTICE</div></header>
+<nav role="tablist">
+<button role="tab" aria-selected="true" data-t="a">成語</button>
+<button role="tab" aria-selected="false" data-t="b">名言佳句</button>
+<button role="tab" aria-selected="false" data-t="r">閱讀</button>
+<button role="tab" aria-selected="false" data-t="v">生字本</button>
+</nav>
+<section id="a"></section>
+<section id="b" hidden></section>
+<section id="r" hidden></section>
+<section id="v" hidden></section>
+<section id="p" hidden>
+<div id="rg" class="card"></div>
+<div id="sn"></div>
+<section id="c"></section>
+<section id="d" hidden></section>
+<section id="f" hidden></section>
+<section id="g" hidden></section>
+<section id="h" hidden></section>
+<section id="i" hidden></section>
+</section>
+</main>
+<button id="fab">練習</button>
+<button id="up">↑ 目錄</button>
+<script>
+const W=[
+["持之以恆","長久堅持下去，不中斷。","只要持之以恆地練習寫字，字就會越寫越漂亮。","他持之以恆地早起運動，身體變得很健康。"],
+["全力以赴","用盡全部力量去做。","這次會考我會全力以赴，不讓自己後悔。","球隊全力以赴，終於贏得了比賽。"],
+["半途而廢","事情做到一半就放棄。","學語言不能半途而廢，不然前面的努力都白費了。","他學了三個月鋼琴就半途而廢，真可惜。"],
+["同心協力","大家團結一心，共同努力。","我們班同心協力，終於完成了校慶的布置。","全家人同心協力，把家裡打掃得乾乾淨淨。"],
+["集思廣益","集合眾人的意見，想出更好的辦法。","做小組報告時，大家集思廣益，想出了很多好點子。","老師請同學集思廣益，討論班遊的地點。"],
+["印象深刻","事情留在心中很清楚，不容易忘記。","那次旅行讓我印象深刻，到現在還記得很清楚。","老師的一句鼓勵，讓我印象深刻。"],
+["受益良多","得到很多好處或幫助。","聽了老師的建議，我受益良多。","讀了這本書之後，我受益良多。"],
+["心懷感激","心裡充滿感謝。","他幫了我很多，我對他心懷感激。","我對一直照顧我的房東心懷感激。"],
+["恍然大悟","突然明白過來。","老師解釋完，我恍然大悟，原來答案這麼簡單。","聽到朋友的說明，我才恍然大悟。"],
+["迎刃而解","問題找到方法後，很容易就解決了。","找到方法後，困難就迎刃而解了。","掌握了基本觀念，數學題目就迎刃而解。"],
+["鍥而不捨","意志堅定，一直做下去不放棄。","這個字他寫錯很多次，但他鍥而不捨，一直練到寫對為止。","她鍥而不捨地練習發音，現在說得很標準。"],
+["越挫越勇","遇到的挫折越多，反而越有勇氣。","他比賽輸了，卻越挫越勇，決定更努力練習。","遇到困難時，我告訴自己要越挫越勇。"],
+["腳踏實地","做事踏實認真，不好高騖遠。","做事要腳踏實地，不要只想一步登天。","他腳踏實地地準備考試，每天都複習。"],
+["循序漸進","按照順序，一步一步前進。","學中文要循序漸進，不能一開始就學很難的內容。","運動要循序漸進，才不會受傷。"],
+["虛心求教","謙虛地向別人請教。","遇到不懂的地方，要虛心求教，向老師請教。","他虛心求教，所以進步很快。"],
+["精益求精","已經很好了，還想要更好。","他的作文已經很好，還是精益求精，一直修改。","那位廚師對每一道菜都精益求精。"],
+["茅塞頓開","突然想通，心裡豁然開朗。","被同學一點，我茅塞頓開，知道自己錯在哪。","老師講完之後，我茅塞頓開，終於懂了這個文法。"],
+["設身處地","站在別人的立場去想。","朋友難過時，要設身處地，想想他的感受。","我們應該設身處地為別人著想。"],
+["感同身受","好像自己也親身經歷過一樣。","看到災區的新聞，我感同身受，心裡很難過。","聽了她的故事，大家都感同身受。"],
+["樂在其中","很享受做這件事。","他很愛畫畫，每天畫畫都樂在其中。","學習中文讓我樂在其中。"],
+["飲水思源","喝水時想到水的來源，比喻不忘本、記得恩情。","我能學會中文是老師的教導，所以我要飲水思源。","成功的時候，要飲水思源，感謝幫助過我們的人。"],
+["感恩圖報","感謝別人的恩情，並想辦法回報。","媽媽辛苦照顧我，我長大後要感恩圖報。","他受到老師的幫助，立志將來感恩圖報。"],
+["患難與共","在困難的時候一起面對。","在我最困難的時候，朋友與我患難與共。","他們是患難與共的好夥伴。"],
+["互相扶持","彼此幫助，互相支持。","同學們互相扶持，一起度過了緊張的考試週。","好朋友應該互相扶持。"],
+["不屈不撓","不向困難低頭，不肯放棄。","他不屈不撓地練習，終於通過了中文檢定。","面對失敗，她不屈不撓，繼續努力。"],
+["勇往直前","勇敢地向前進，不怕困難。","面對會考，我要勇往直前，不怕困難。","為了夢想，他勇往直前，從不退縮。"],
+["盡心盡力","用盡心思和力量去做。","老師盡心盡力地教我，從不覺得麻煩。","她盡心盡力地照顧生病的奶奶。"],
+["深思熟慮","仔細周密地思考。","選擇學校是大事，我深思熟慮之後才做決定。","這個決定我深思熟慮了很久。"],
+["未雨綢繆","事先做好準備，避免麻煩。","考試前一個月就開始複習，這就是未雨綢繆。","出門前先看天氣預報並帶傘，是未雨綢繆的好習慣。"],
+["臨危不亂","遇到危險也能保持鎮定。","火災演習時，他臨危不亂，帶著大家安全走出教室。","遇到意外，我們要臨危不亂。"],
+["全神貫注","專心投入，一點也不分心。","上課時他全神貫注地聽老師講解。","畫畫的時候，她全神貫注，連朋友叫她都沒聽見。"],
+["不恥下問","不覺得向地位或知識比自己低的人請教是丟臉的事。","他成績很好，遇到不懂的地方，還是不恥下問。","學問再好的人，也要有不恥下問的態度。"],
+["見賢思齊","看到有才德的人，就想學習、趕上他。","看到同學每天早起讀書，我也見賢思齊，決定跟著努力。","我們要見賢思齊，向身邊的好榜樣學習。"],
+["見義勇為","遇到該做的正當事，毫不猶豫地挺身去做。","他看見有人落水，立刻見義勇為，跳下去救人。","社會需要更多見義勇為的人。"],
+["如釋重負","壓力或煩惱解除後，整個人輕鬆下來。","考完最後一科，我如釋重負地走出教室。","聽到媽媽說沒事了，我才如釋重負。"],
+["依依不捨","離別時戀戀不忘，不想分開。","畢業典禮結束後，同學們依依不捨地互道再見。","小狗看著主人離開，依依不捨地跟了好幾步。"],
+["興高采烈","非常開心，精神十分振奮。","聽到要去校外教學，大家都興高采烈。","他興高采烈地告訴我，自己拿到了比賽的第一名。"],
+["手足無措","慌張到不知道該怎麼辦。","突然停電，他一時手足無措。","第一次上台報告，她緊張得手足無措。"]];
+const Q=[
+["失敗為成功之母","從失敗中學習，就能走向成功。","適合放在遇到挫折的段落或結尾。"],
+["三人行，必有我師焉","每個人身上都有值得學習的地方。","適合講謙虛、向人學習。"],
+["千里之行，始於足下","再遠的目標，也要從第一步開始。","適合講堅持、循序漸進。"],
+["有志者事竟成","只要有決心又不放棄，最後就能成功。","適合放在結尾，鼓勵自己。"],
+["讀萬卷書，不如行萬里路","學習不能只靠書本，也要親身體驗。","適合講旅行、生活經驗。"],
+["己所不欲，勿施於人","自己不想要的，就不要強加給別人。","適合講同理心、人際關係。"],
+["業精於勤，荒於嬉","學業因為勤奮而精進，因為貪玩而荒廢。","適合講努力、時間管理。"],
+["溫故而知新","複習舊的知識，會有新的體會。","適合講複習、學習方法。"],
+["不經一番寒徹骨，焉得梅花撲鼻香","經歷辛苦之後，才能得到美好的成果。","適合講挫折後的收穫。"]];
+const ZY=["ㄔˊ ㄓ ㄧˇ ㄏㄥˊ","ㄑㄩㄢˊ ㄌㄧˋ ㄧˇ ㄈㄨˋ","ㄅㄢˋ ㄊㄨˊ ㄦˊ ㄈㄟˋ","ㄊㄨㄥˊ ㄒㄧㄣ ㄒㄧㄝˊ ㄌㄧˋ","ㄐㄧˊ ㄙ ㄍㄨㄤˇ ㄧˋ","ㄧㄣˋ ㄒㄧㄤˋ ㄕㄣ ㄎㄜˋ","ㄕㄡˋ ㄧˋ ㄌㄧㄤˊ ㄉㄨㄛ","ㄒㄧㄣ ㄏㄨㄞˊ ㄍㄢˇ ㄐㄧ","ㄏㄨㄤˇ ㄖㄢˊ ㄉㄚˋ ㄨˋ","ㄧㄥˊ ㄖㄣˋ ㄦˊ ㄐㄧㄝˇ","ㄑㄧㄝˋ ㄦˊ ㄅㄨˋ ㄕㄜˇ","ㄩㄝˋ ㄘㄨㄛˋ ㄩㄝˋ ㄩㄥˇ","ㄐㄧㄠˇ ㄊㄚˋ ㄕˊ ㄉㄧˋ","ㄒㄩㄣˊ ㄒㄩˋ ㄐㄧㄢˋ ㄐㄧㄣˋ","ㄒㄩ ㄒㄧㄣ ㄑㄧㄡˊ ㄐㄧㄠˋ","ㄐㄧㄥ ㄧˋ ㄑㄧㄡˊ ㄐㄧㄥ","ㄇㄠˊ ㄙㄜˋ ㄉㄨㄣˋ ㄎㄞ","ㄕㄜˋ ㄕㄣ ㄔㄨˇ ㄉㄧˋ","ㄍㄢˇ ㄊㄨㄥˊ ㄕㄣ ㄕㄡˋ","ㄌㄜˋ ㄗㄞˋ ㄑㄧˊ ㄓㄨㄥ","ㄧㄣˇ ㄕㄨㄟˇ ㄙ ㄩㄢˊ","ㄍㄢˇ ㄣ ㄊㄨˊ ㄅㄠˋ","ㄏㄨㄢˋ ㄋㄢˋ ㄩˇ ㄍㄨㄥˋ","ㄏㄨˋ ㄒㄧㄤ ㄈㄨˊ ㄔˊ","ㄅㄨˋ ㄑㄩ ㄅㄨˋ ㄋㄠˊ","ㄩㄥˇ ㄨㄤˇ ㄓˊ ㄑㄧㄢˊ","ㄐㄧㄣˋ ㄒㄧㄣ ㄐㄧㄣˋ ㄌㄧˋ","ㄕㄣ ㄙ ㄕㄨˊ ㄌㄩˋ","ㄨㄟˋ ㄩˇ ㄔㄡˊ ㄇㄡˊ","ㄌㄧㄣˊ ㄨㄟˊ ㄅㄨˋ ㄌㄨㄢˋ","ㄑㄩㄢˊ ㄕㄣˊ ㄍㄨㄢˋ ㄓㄨˋ","ㄅㄨˋ ㄔˇ ㄒㄧㄚˋ ㄨㄣˋ","ㄐㄧㄢˋ ㄒㄧㄢˊ ㄙ ㄑㄧˊ","ㄐㄧㄢˋ ㄧˋ ㄩㄥˇ ㄨㄟˊ","ㄖㄨˊ ㄕˋ ㄓㄨㄥˋ ㄈㄨˋ","ㄧ ㄧ ㄅㄨˋ ㄕㄜˇ","ㄒㄧㄥˋ ㄍㄠ ㄘㄞˇ ㄌㄧㄝˋ","ㄕㄡˇ ㄗㄨˊ ㄨˊ ㄘㄨㄛˋ"];
+const EM=["📅🏃‍♂️💪","🏃‍♂️💨🏁","⛰️🚶‍♂️🛑","🤝👥🧱","💡👥💬","🧠📌✨","📚🎁😊","🙏❤️","💡😲","🔓✅","⛏️🪨🔁","💪🔥📈","👣🌍","🪜👣","🙇‍♂️🧑‍🏫","✨💎🔍","🌫️➡️☀️","🔄👟","😢🤝😢","🎨😄","🥤➡️🏔️💧","🎁❤️🔁","⛈️☂️👫","🤝🧑‍🤝‍🧑","🌪️🌳💪","🚀➡️🎯","❤️💪","🤔💭⚖️","☁️☂️","🔥😌🚪","👀🎯","🙋‍♂️❓🧑‍🏫","👀🌟🚶","🦸‍♂️🆘","🎒😌","👋😢","🎉😄🎊","😵🤷"];
+W.forEach((w,k)=>{w.zy=ZY[k].split(" ");w.em=EM[k]});
+W.find(w=>w[0]==="迎刃而解").svg='<svg viewBox="0 0 380 320" role="img"><title>迎刃而解</title><desc>一把刀碰到竹子，竹子順著刀口裂成兩半。</desc><circle cx="190" cy="150" r="128" fill="#EAF3E2"/><ellipse cx="190" cy="276" rx="62" ry="7" fill="#C9D9BE"/><polygon points="190,150 186,115 176,90 181,70 170,40 210,40 200,70 204,90 194,115" fill="#F3ECCB"/><path d="M166 150 Q164 96 144 50 L170 40 L181 70 L176 90 L186 115 L190 150 Z" fill="#6BB36B" stroke="#3F7F47" stroke-width="1.5" stroke-linejoin="round"/><path d="M214 150 Q216 96 236 50 L210 40 L199 70 L204 90 L194 115 L190 150 Z" fill="#7BC27A" stroke="#3F7F47" stroke-width="1.5" stroke-linejoin="round"/><path d="M158 100 Q156 78 150 62" fill="none" stroke="#97D08F" stroke-width="3" stroke-linecap="round"/><rect x="166" y="150" width="48" height="122" rx="6" fill="#6BB36B" stroke="#3F7F47" stroke-width="1.5"/><rect x="173" y="156" width="7" height="108" rx="3" fill="#97D08F"/><rect x="204" y="156" width="6" height="108" rx="3" fill="#4E9150"/><rect x="161" y="188" width="58" height="9" rx="4.5" fill="#3F7F47"/><rect x="161" y="236" width="58" height="9" rx="4.5" fill="#3F7F47"/><polygon points="146,32 154,26 152,38" fill="#97D08F"/><polygon points="236,30 228,24 230,36" fill="#97D08F"/><path d="M189 152 Q132 126 76 128 L76 162 Q132 168 189 152 Z" fill="#DCE4EB" stroke="#7C8896" stroke-width="1.5" stroke-linejoin="round"/><path d="M84 158 Q132 160 180 153" fill="none" stroke="#AEB9C4" stroke-width="2" stroke-linecap="round"/><path d="M92 138 Q120 136 150 143" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/><rect x="72" y="122" width="7" height="46" rx="3" fill="#C9A24A"/><rect x="22" y="130" width="52" height="30" rx="7" fill="#8A5A35"/><line x1="36" y1="132" x2="36" y2="158" stroke="#6B4226" stroke-width="2"/><line x1="48" y1="132" x2="48" y2="158" stroke="#6B4226" stroke-width="2"/><line x1="60" y1="132" x2="60" y2="158" stroke="#6B4226" stroke-width="2"/><line x1="6" y1="132" x2="16" y2="132" stroke="#9AA7B4" stroke-width="2.5" stroke-linecap="round"/><line x1="4" y1="145" x2="14" y2="145" stroke="#9AA7B4" stroke-width="2.5" stroke-linecap="round"/><line x1="6" y1="158" x2="16" y2="158" stroke="#9AA7B4" stroke-width="2.5" stroke-linecap="round"/><line x1="190" y1="26" x2="190" y2="10" stroke="#E5AE3C" stroke-width="3" stroke-linecap="round"/><line x1="160" y1="26" x2="152" y2="13" stroke="#E5AE3C" stroke-width="3" stroke-linecap="round"/><line x1="220" y1="26" x2="228" y2="13" stroke="#E5AE3C" stroke-width="3" stroke-linecap="round"/><text x="190" y="304" text-anchor="middle" style="font-size:13px;fill:#5b6b7f">刀一碰到，竹子就順勢裂開</text></svg>';
+W.find(w=>w[0]==="半途而廢").svg='<svg viewBox="0 0 380 260" role="img"><title>半途而廢</title><desc>爬山爬到一半就放棄，轉身下山。</desc><rect width="380" height="260" rx="16" fill="#EAF1F8"/><rect y="222" width="380" height="38" fill="#B5C9A8"/><polygon points="50,222 190,40 330,222" fill="#8FA3B8"/><polygon points="190,40 166,76 190,68 214,76" fill="#fff"/><line x1="190" y1="40" x2="190" y2="18" stroke="#6B4226" stroke-width="3"/><polygon points="190,18 214,25 190,32" fill="#D9534F"/><path d="M120 222 Q190 200 160 160 Q140 132 170 112" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="2 9" stroke-linecap="round"/><circle cx="160" cy="146" r="8" fill="#E5AE3C"/><path d="M160 154 L160 182 M160 162 L148 172 M160 182 L152 198 M160 182 L170 198" stroke="#3F4B5A" stroke-width="3.5" stroke-linecap="round" fill="none"/><path d="M196 150 Q226 160 216 196" fill="none" stroke="#D9534F" stroke-width="4" stroke-linecap="round"/><polygon points="206,192 226,192 216,210" fill="#D9534F"/><text x="190" y="248" text-anchor="middle" style="font-size:13px;fill:#3F4B5A">爬到一半就放棄，回頭下山</text></svg>';
+W.find(w=>w[0]==="未雨綢繆").svg='<svg viewBox="0 0 380 260" role="img"><title>未雨綢繆</title><desc>雨還沒下，就先把依撲開。</desc><rect width="380" height="260" rx="16" fill="#EEF4FA"/><circle cx="326" cy="46" r="22" fill="#F2C14E"/><g fill="#AEB9C4"><circle cx="70" cy="60" r="20"/><circle cx="96" cy="50" r="26"/><circle cx="126" cy="62" r="20"/><rect x="60" y="62" width="76" height="20" rx="10"/></g><path d="M90 94 L85 108 M110 94 L105 108" stroke="#5B9BD5" stroke-width="3" stroke-linecap="round"/><rect y="226" width="380" height="34" fill="#B5C9A8"/><path d="M130 170 Q230 70 330 170 Q305 182 280 170 Q255 182 230 170 Q205 182 180 170 Q155 182 130 170 Z" fill="#D9534F"/><path d="M230 172 L230 214 Q230 226 218 224" stroke="#6B4226" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="262" cy="194" r="8" fill="#E5AE3C"/><path d="M262 202 L262 224 M262 208 L234 202" stroke="#3F4B5A" stroke-width="3.5" stroke-linecap="round" fill="none"/><text x="190" y="250" text-anchor="middle" style="font-size:13px;fill:#3F4B5A">雨還沒下，就先撲開依</text></svg>';
+W.find(w=>w[0]==="飲水思源").svg='<svg viewBox="0 0 380 260" role="img"><title>飲水思源</title><desc>喝水的時候，想到水是從山上來的。</desc><rect width="380" height="260" rx="16" fill="#EAF1F8"/><rect y="222" width="380" height="38" fill="#B5C9A8"/><polygon points="30,222 140,62 250,222" fill="#8FA3B8"/><circle cx="140" cy="96" r="7" fill="#4FA3E0"/><path d="M140 103 Q168 150 138 182 Q112 210 190 216 L284 216" fill="none" stroke="#4FA3E0" stroke-width="7" stroke-linecap="round"/><circle cx="318" cy="176" r="8" fill="#E5AE3C"/><path d="M318 184 L318 208 M318 208 L310 222 M318 208 L326 222 M318 192 L304 200" stroke="#3F4B5A" stroke-width="3.5" stroke-linecap="round" fill="none"/><circle cx="300" cy="202" r="4" fill="#4FA3E0"/><circle cx="326" cy="152" r="4" fill="#fff" stroke="#B8C6D4"/><circle cx="332" cy="138" r="6" fill="#fff" stroke="#B8C6D4"/><circle cx="334" cy="96" r="34" fill="#fff" stroke="#B8C6D4" stroke-width="1.5"/><polygon points="316,112 334,76 352,112" fill="#8FA3B8"/><circle cx="334" cy="90" r="3" fill="#4FA3E0"/><text x="190" y="250" text-anchor="middle" style="font-size:13px;fill:#3F4B5A">喝水時，想到水從哪裡來</text></svg>';
+W.find(w=>w[0]==="\u604d然大悟").svg='<svg viewBox="0 0 380 260" role="img"><title>恍然大悟</title><desc>突然想通，頭上亮起燈泡。</desc><rect width="380" height="260" rx="16" fill="#EAF1F8"/><text x="190" y="26" text-anchor="middle" style="font-size:13px;fill:#3F4B5A">突然想通了，頭上亮起燈泡</text><circle cx="190" cy="84" r="24" fill="#F7D154" stroke="#D9A81E" stroke-width="2"/><rect x="181" y="106" width="18" height="12" rx="3" fill="#9AA7B4"/><g stroke="#E5AE3C" stroke-width="3" stroke-linecap="round"><line x1="190" y1="44" x2="190" y2="54"/><line x1="158" y1="54" x2="164" y2="62"/><line x1="222" y1="54" x2="216" y2="62"/><line x1="150" y1="86" x2="160" y2="86"/><line x1="230" y1="86" x2="220" y2="86"/></g><path d="M148 260 Q148 208 190 202 Q232 208 232 260 Z" fill="#5B9BD5"/><circle cx="190" cy="172" r="23" fill="#F2D2A9"/><path d="M166 168 Q190 138 214 168 Q190 154 166 168 Z" fill="#3F4B5A"/><circle cx="181" cy="172" r="3" fill="#3F4B5A"/><circle cx="199" cy="172" r="3" fill="#3F4B5A"/><ellipse cx="190" cy="184" rx="5" ry="6" fill="#3F4B5A"/></svg>';
+W.find(w=>w[0]==="臨危不亂").svg='<svg viewBox="0 0 380 260" role="img"><title>臨危不亂</title><desc>遇到危險也保持冷靜。</desc><rect width="380" height="260" rx="16" fill="#EAF1F8"/><rect y="222" width="380" height="38" fill="#B5C9A8"/><path d="M70 222 Q60 190 85 160 Q90 185 105 175 Q125 195 112 222 Z" fill="#E8743B"/><path d="M84 222 Q80 205 92 190 Q104 200 100 222 Z" fill="#F2C14E"/><path d="M120 222 Q118 205 130 195 Q142 208 136 222 Z" fill="#E8743B"/><circle cx="240" cy="150" r="30" fill="none" stroke="#7FB6E8" stroke-width="2" stroke-dasharray="4 5"/><circle cx="240" cy="150" r="12" fill="#E5AE3C"/><circle cx="236" cy="148" r="1.8" fill="#3F4B5A"/><circle cx="244" cy="148" r="1.8" fill="#3F4B5A"/><path d="M234 154 Q240 160 246 154" fill="none" stroke="#3F4B5A" stroke-width="2" stroke-linecap="round"/><path d="M240 162 L240 196 M240 172 L226 184 M240 172 L254 184 M240 196 L230 222 M240 196 L250 222" fill="none" stroke="#3F4B5A" stroke-width="3.5" stroke-linecap="round"/><text x="190" y="250" text-anchor="middle" style="font-size:13px;fill:#3F4B5A">遇到危險，也保持冷靜</text></svg>';
+W.find(w=>w[0]==="鍥而不捨").svg='<svg viewBox="0 0 380 260" role="img"><title>鍥而不捨</title><desc>用鑄子和槌子一下一下刻在石頭上，不放棄。</desc><rect width="380" height="260" rx="16" fill="#EAF1F8"/><rect x="100" y="130" width="180" height="90" rx="12" fill="#AEB9C4" stroke="#7C8896" stroke-width="1.5"/><path d="M122 172 L258 172" stroke="#6B7885" stroke-width="6" stroke-linecap="round"/><rect x="196" y="98" width="10" height="58" fill="#C5CFD8" stroke="#7C8896"/><polygon points="196,156 206,156 201,172" fill="#C5CFD8" stroke="#7C8896"/><rect x="194" y="84" width="14" height="16" rx="3" fill="#8A5A35"/><rect x="172" y="58" width="56" height="22" rx="4" fill="#6B7885"/><rect x="228" y="64" width="60" height="10" rx="5" fill="#8A5A35"/><g stroke="#E5AE3C" stroke-width="3" stroke-linecap="round"><line x1="160" y1="66" x2="150" y2="60"/><line x1="160" y1="76" x2="148" y2="78"/></g><polygon points="170,160 178,166 168,170" fill="#8A97A5"/><polygon points="232,164 240,162 236,172" fill="#8A97A5"/><g stroke="#3F4B5A" stroke-width="3" stroke-linecap="round"><line x1="38" y1="100" x2="38" y2="124"/><line x1="48" y1="100" x2="48" y2="124"/><line x1="58" y1="100" x2="58" y2="124"/><line x1="68" y1="100" x2="68" y2="124"/><line x1="32" y1="116" x2="74" y2="108"/></g><text x="190" y="250" text-anchor="middle" style="font-size:13px;fill:#3F4B5A">一下一下刻，直到完成</text></svg>';
+const SC={"持之以恆":"每天早上都背 5 個單字，背了一整年。","全力以赴":"比賽最後一分鐘，拚盡所有力氣衝刺。","半途而廢":"學了三個月吉他，覺得難就不練了。","同心協力":"全班一起搬桌椅，很快就布置好教室。","集思廣益":"大家輪流提意見，決定畢業旅行去哪裡。","印象深刻":"第一次看到雪，到現在還記得很清楚。","受益良多":"聽完講座後，學到很多新方法。","心懷感激":"生病時，同學幫我送了筆記和飲料。","恍然大悟":"看完解答才發現，原來自己看漏了一行。","迎刃而解":"找到公式後，整張考卷很快就寫完了。","鍥而不捨":"同一個字寫錯十次，還是繼續練到對。","越挫越勇":"比賽輸了幾次，反而更想努力練習。","腳踏實地":"不想靠運氣，每天一點一點存錢。","循序漸進":"學游泳先練憋氣，再練劃手。","虛心求教":"不懂的文法，主動去問老師。","精益求精":"作文已經不錯，還是一直修改細節。","茅塞頓開":"老師點一句話，卡住很久的問題突然懂了。","設身處地":"吵架前，先想想對方為什麼生氣。","感同身受":"聽到朋友的寵物走了，自己也很難過。","樂在其中":"每天畫畫雖然累，卻覺得很開心。","飲水思源":"畢業後回學校，謝謝以前的老師。","感恩圖報":"受到別人幫助，長大後也想回饋。","患難與共":"最困難的時候，朋友一直陪在身邊。","互相扶持":"在外地生活的朋友，彼此照顧。","不屈不撓":"受傷後，還是每天努力復健。","勇往直前":"認定目標後，不怕別人嘲笑，繼續往前。","盡心盡力":"照顧生病的家人，每個細節都用心。","深思熟慮":"選學校前，把優缺點想了好幾天。","未雨綢繆":"颱風還沒來，先準備好食物和手電筒。","臨危不亂":"地震時，老師冷靜帶大家躲到桌子下。","全神貫注":"上課時專心得連朋友叫名字都沒聽見。","不恥下問":"成績很好，遇到不懂還是請教別人。","見賢思齊":"看到同學天天早起讀書，也想跟著做。","見義勇為":"看到有人落水，立刻跳下去救人。","如釋重負":"考完最後一科，終於鬆了一口氣。","依依不捨":"畢業典禮後，大家都不想分開。","興高采烈":"聽到要校外教學，全班都歡呼起來。","手足無措":"突然停電，一時不知道該怎麼辦。"};
+const pic=w=>{const p=document.createElement("p");p.className=w.svg?"pic":"pic ic";if(w.svg)p.innerHTML=w.svg;else p.hidden=true;return p};
+const rb=w=>{const s=document.createElement("span");[...w[0]].forEach((ch,k)=>{const z=w.zy[k],t=/[ˊˇˋ˙]$/.test(z)?z.slice(-1):"",y=t?z.slice(0,-1):z;const c=document.createElement("span");c.className="zc";const a=document.createElement("span");a.textContent=ch;const b=document.createElement("span");b.className="zy";const m=document.createElement("span");m.className="zs";m.textContent=y;b.append(m);if(t){const n=document.createElement("span");n.className="zt";n.textContent=t;b.append(n)}c.append(a,b);s.append(c)});return s};
+const $=s=>document.querySelector(s);
+const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e};
+const DEF=[];
+let NQ=10;try{NQ=+localStorage.getItem("cy-n")===5?5:10}catch(e){}
+let PM=0;try{PM=+localStorage.getItem("cy-pm")===1?1:0}catch(e){}
+const spm=()=>{try{localStorage.setItem("cy-pm",String(PM))}catch(e){}};
+const sel={has:n=>PM?ST[n]===2:(ST[n]===1||ST[n]===2),get size(){return W.filter(w=>sel.has(w[0])).length}};
+const SEL=()=>W.filter(w=>sel.has(w[0]));
+const ST={};try{Object.assign(ST,JSON.parse(localStorage.getItem("cy-st"))||{})}catch(e){}
+const svt=()=>{try{localStorage.setItem("cy-st",JSON.stringify(ST))}catch(e){}};
+if(!Object.keys(ST).length)DEF.forEach(n=>{ST[n]=1});
+const VS=new Set(),HB=new Map(),vbtn=new Map();try{(JSON.parse(localStorage.getItem("cy-vocab"))||[]).forEach(w=>VS.add(w))}catch(e){}
+const svv=()=>{try{localStorage.setItem("cy-vocab",JSON.stringify([...VS]))}catch(e){}};
+function syncVB(){vbtn.forEach((b,n)=>{b.textContent=VS.has(n)?"★ 已收藏":"☆ 收藏到生字本"})}
+const DP=w=>{const p=SEL().filter(x=>x!==w);return p.length>=3?p:W.filter(x=>x!==w)};
+// Section A
+const A=$("#a");
+const SB=el("div"),CL=el("div");SB.id="sb";CL.id="cl";
+const cardOf=new Map(),chips=new Map(),srow=new Map(),dets=new Map(),sumEl=el("p","m",""),toc=el("div","toc");
+W.forEach(w=>{const b=el("button","chip",w[0]);b.onclick=()=>{const c=cardOf.get(w[0]);if(c){tg(false);const y=c.getBoundingClientRect().top+window.scrollY-140;window.scrollTo({top:Math.max(0,y),behavior:"smooth"});c.classList.add("flash");setTimeout(()=>c.classList.remove("flash"),1600)}};chips.set(w[0],b);toc.append(b)});
+function rc(){chips.forEach((b,n)=>{b.className="chip st"+(ST[n]===1||ST[n]===2?ST[n]:0)});sm()}
+function rs(n){const r=srow.get(n);if(r)[...r.children].forEach(b=>b.classList.toggle("on",ST[n]==b.dataset.v))}
+function sm(){const c=[0,0,0,0];W.forEach(w=>c[ST[w[0]]===1||ST[w[0]]===2?ST[w[0]]:0]++);sumEl.textContent="學過 "+c[1]+"　需多練習 "+c[2]+"　未標記 "+c[0]}
+const tb=el("button","pb",""),hn=el("p","m","點一下成語可跳到該卡片；藍色＝學過了，黃色＝需多練習");tb.id="tb";hn.id="hn";
+function tg(o){toc.hidden=hn.hidden=!o;tb.textContent="目錄：共 "+W.length+" 個成語 "+(o?"▴":"▾")}
+tb.style.margin="0 6px 12px";tb.onclick=()=>tg(toc.hidden);tg(false);
+const srch=el("input");srch.type="search";srch.placeholder="搜尋成語或解釋";srch.className="srch";
+srch.oninput=()=>{const q=srch.value.trim();W.forEach(w=>{const ok=!q||w[0].includes(q)||w[1].includes(q);chips.get(w[0]).hidden=!ok;cardOf.get(w[0]).hidden=!ok})};
+const tbar=el("div","tbar"),exAll=o=>{dets.forEach(v=>{v[0].hidden=!o;v[1].textContent="例句與情境 "+(o?"▴":"▾")})};
+[["全部展開",true],["全部收合",false]].forEach(x=>{const b=el("button","pb",x[0]);b.onclick=()=>exAll(x[1]);tbar.append(b)});
+SB.append(sumEl,srch,tbar,tb,toc);A.append(SB,CL);
+W.forEach(w=>{const c=el("div","card"),h=el("p","w");h.append(rb(w));c.append(h,el("p","m",w[1]));
+const det=el("div");det.hidden=true;if(w.svg)det.append(pic(w));if(SC[w[0]])det.append(el("p","sc","生活情境："+SC[w[0]]));det.append(el("p","ex",w[2]),el("p","ex",w[3]));
+const mb=el("button","pb","例句與情境 ▾");mb.onclick=()=>{det.hidden=!det.hidden;mb.textContent="例句與情境 "+(det.hidden?"▾":"▴")};dets.set(w[0],[det,mb]);
+const sr=el("div","sr");[["學過了",1],["需多練習",2]].forEach(x=>{const b=el("button","sb st"+x[1],x[0]);b.dataset.v=x[1];b.onclick=()=>{ST[w[0]]=ST[w[0]]===x[1]?0:x[1];svt();rs(w[0]);upd()};sr.append(b)});
+srow.set(w[0],sr);rs(w[0]);const vb=el("button","pb",VS.has(w[0])?"★ 已收藏":"☆ 收藏到生字本");vb.onclick=()=>{VS.has(w[0])?VS.delete(w[0]):VS.add(w[0]);svv();syncVB();rvv()};vbtn.set(w[0],vb);c.append(mb,det,sr,vb);cardOf.set(w[0],c);CL.append(c)});
+// Section B
+const B=$("#b");
+B.append(el("p","lead","名言放在作文的開頭或結尾最自然，一篇用 1 句就夠。"));
+Q.forEach(q=>{const c=el("div","card");c.append(el("p","w",q[0]),el("p","m",q[1]),el("p","ex",q[2]));B.append(c)});
+// Section C
+const C=$("#c");const wrong=new Set();const sv=()=>{try{localStorage.setItem("cy-wrong",JSON.stringify([...wrong].map(x=>x[0])))}catch(e){}};try{(JSON.parse(localStorage.getItem("cy-wrong"))||[]).forEach(n=>{const x=W.find(w=>w[0]===n);if(x)wrong.add(x)})}catch(e){}let order,i,score,done;
+const sh=a=>{a=a.slice();for(let k=a.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1));[a[k],a[j]]=[a[j],a[k]]}return a};
+const rv=()=>{if(wrong.size){const r=el("button","pb","複習錯題（"+wrong.size+" 題）");r.onclick=()=>{order=sh([...wrong]);i=0;score=0;show()};C.prepend(r)}};function start(){order=sh(SEL()).slice(0,NQ);i=0;score=0;show();rv()}
+function show(){
+C.replaceChildren();
+if(!order.length){const c=el("div","card");c.append(el("p","m","還沒有標記成語，請先到成語頁標記。"));C.append(c);return}
+if(i>=order.length){const c=el("div","card");c.append(el("p","lead","本輪結果"),el("p","big",score+" / "+order.length),el("p","m",score>=9?"很棒，成語都記得很牢。":score>=6?"不錯，錯的題目再回去看一次。":"再看一次「成語」頁，之後再挑戰。"));const b=el("button","go","再練一輪");b.onclick=start;c.append(b);if(wrong.size){const r=el("button","go","只練答錯的（"+wrong.size+" 題）");r.style.marginLeft="8px";r.onclick=()=>{order=sh([...wrong]);i=0;score=0;show()};c.append(r)}C.append(c);return}
+const w=order[i],opts=sh([w,...sh(DP(w)).slice(0,3)]);
+const c=el("div","card");
+c.append(el("p","lead","哪一個成語的意思是："),el("p","q",w[1]),pic(w));
+const fb=el("p","fb");let ans=false;
+opts.forEach(o=>{const b=el("button","opt",o[0]);b.dataset.w=o[0];b.onclick=()=>{if(ans)return;ans=true;
+if(o===w){score++;wrong.delete(w);sv();b.classList.add("ok");fb.textContent="答對了！"}
+else{wrong.add(w);sv();b.classList.add("no");[...c.querySelectorAll(".opt")].find(x=>x.dataset.w===w[0]).classList.add("ok");fb.textContent="正確答案是「"+w[0]+"」。例句：「"+w[2]+"」"}
+nx.hidden=false};c.append(b)});
+const nx=el("button","go",i+1<order.length?"下一題":"看結果");nx.hidden=true;nx.onclick=()=>{i++;show()};
+c.append(fb,nx,Object.assign(el("div","bar"),{}));
+c.lastChild.append(el("span","","第 "+(i+1)+" / "+order.length+" 題"),el("span","","答對 "+score+" 題"));
+C.append(c)}
+start();
+const D=$("#d");let dq,di,ds;
+function dstart(){dq=sh(Q).slice(0,NQ);di=0;ds=0;dshow()}
+function dshow(){D.replaceChildren();
+if(di>=dq.length){const c=el("div","card");c.append(el("p","lead","本輪結果"),el("p","big",ds+" / "+dq.length));const b=el("button","go","再練一輪");b.onclick=dstart;c.append(b);D.append(c);return}
+const q=dq[di],opts=sh([q,...sh(Q.filter(x=>x!==q)).slice(0,3)]);
+const c=el("div","card");c.append(el("p","lead","哪一句名言的意思是："),el("p","q",q[1]));
+const fb=el("p","fb");let ans=false;
+opts.forEach(o=>{const b=el("button","opt",o[0]);b.style.fontSize="16px";b.onclick=()=>{if(ans)return;ans=true;if(o===q){ds++;b.classList.add("ok");fb.textContent="答對了！"}else{b.classList.add("no");[...c.querySelectorAll(".opt")].find(x=>x.textContent===q[0]).classList.add("ok");fb.textContent="正確答案是「"+q[0]+"」。"}nx.hidden=false};c.append(b)});
+const nx=el("button","go",di+1<dq.length?"下一題":"看結果");nx.hidden=true;nx.onclick=()=>{di++;dshow()};
+c.append(fb,nx,el("p","m","第 "+(di+1)+" / "+dq.length+" 題"));D.append(c)}
+dstart();
+const FX={"全神貫注":["考試時，他全神貫注地讀每一道題目。","醫生全神貫注地看著手術畫面，不敢分心。"],"不恥下問":["孔子說要不恥下問，所以他常向後輩請教。","她身為經理，也不恥下問，向新人學習新軟體。"],"見賢思齊":["看到鄰居天天做志工，他見賢思齊，也報名加入。","見賢思齊的人，總會努力縮小與榜樣的差距。"],"見義勇為":["看到小偷搶走老奶奶的包包，他見義勇為，追上去抓住小偷。","學校表揚了見義勇為、幫助迷路孩子的同學。"],"如釋重負":["報告交出去後，我如釋重負，終於能好好睡一覺。","聽到檢查結果沒問題，爺爺如釋重負地笑了。"],"依依不捨":["暑假營隊結束，大家依依不捨地擁抱道別。","她依依不捨地看著即將搬走的老房子。"],"興高采烈":["收到生日禮物，弟弟興高采烈地拆開包裝。","同學們興高采烈地討論著週末的旅行計畫。"],"手足無措":["迷路在陌生的城市，他一時手足無措。","看到水管突然爆裂，大家手足無措。"],"持之以恆":["他持之以恆地背單字，一年後詞彙量多了很多。","想養成運動習慣，最重要的是持之以恆。"],"全力以赴":["比賽剩最後一分鐘，選手們依然全力以赴。","為了通過檢定，她這個月全力以赴準備考試。"],"半途而廢":["他每次買了新的課本，都念幾頁就半途而廢。","做事情不要半途而廢，堅持到最後才有收穫。"],"同心協力":["大家同心協力，只花一個下午就把教室整理好了。","這場拔河比賽，全班同心協力才贏得勝利。"],"集思廣益":["為了決定畢業旅行的地點，老師請大家集思廣益。","經過集思廣益，我們的海報比原本的想法更有創意。"],"印象深刻":["第一次看到雪的景象，讓我印象深刻。","老師上課時講的故事，我到現在還印象深刻。"],"受益良多":["參加這次演講比賽，我受益良多。","跟著學長一起讀書，讓我受益良多。"],"心懷感激":["收到同學送的生日卡片，我心懷感激。","對於每一位幫助過我的人，我都心懷感激。"],"恍然大悟":["看了解答後，我才恍然大悟，原來自己漏看了一個條件。","聽完朋友的解釋，我恍然大悟，原來他不是故意遲到的。"],"迎刃而解":["只要找到關鍵的公式，這道數學題就迎刃而解。","大家一起討論之後，所有的難題都迎刃而解。"],"鍥而不捨":["她鍥而不捨地投履歷，終於找到了理想的工作。","做研究需要鍥而不捨的精神，不能輕易放棄。"],"越挫越勇":["即使被拒絕了好幾次，他仍然越挫越勇。","這支球隊輸了比賽，卻越挫越勇，下一場表現更好。"],"腳踏實地":["想要成功，不能只靠運氣，必須腳踏實地努力。","他腳踏實地一步一步存錢，終於買到了新電腦。"],"循序漸進":["學游泳要循序漸進，先練憋氣，再練划水。","老師的教法循序漸進，所以大家都跟得上。"],"虛心求教":["遇到不會的文法，他總是虛心求教。","年紀再大也要虛心求教，才會不斷進步。"],"精益求精":["這位師傅做麵包總是精益求精，每一個都檢查很多次。","作品完成後，他還是精益求精，繼續修改細節。"],"茅塞頓開":["老師一句提醒，讓我茅塞頓開，終於懂了這題的做法。","聽完他的說明，我茅塞頓開，不再困惑了。"],"設身處地":["吵架之前，先設身處地想想對方的感受。","老師設身處地替學生著想，所以大家都很喜歡他。"],"感同身受":["聽到朋友失去了寵物，我感同身受，也覺得很難過。","只有親身經歷過的人，才會對這份辛苦感同身受。"],"樂在其中":["雖然練習很辛苦，但他學小提琴樂在其中。","把興趣當成工作，每天都樂在其中。"],"飲水思源":["學生畢業後回學校探望老師，這就是飲水思源。","我們享受今天的生活，要飲水思源，記得先人的付出。"],"感恩圖報":["他靠獎學金完成學業，立志將來感恩圖報。","受到別人的幫助時，要懂得感恩圖報。"],"患難與共":["在最艱難的那段日子，是他陪我患難與共。","夫妻之間要患難與共，才能走得長久。"],"互相扶持":["在異鄉生活的朋友們互相扶持，彼此照顧。","兄弟姊妹從小互相扶持，感情特別好。"],"不屈不撓":["這位運動員不屈不撓，受傷後依然努力復健。","面對困難要有不屈不撓的精神。"],"勇往直前":["只要認定目標，就要勇往直前，不要回頭。","他勇往直前地追求夢想，不怕別人的嘲笑。"],"盡心盡力":["醫生盡心盡力照顧每一位病人。","這次班上的活動，他盡心盡力地幫忙，一點也不偷懶。"],"深思熟慮":["買房子是大事，必須深思熟慮之後再決定。","他說的每一句話都經過深思熟慮，所以很有說服力。"],"未雨綢繆":["出遠門前先檢查行李，是未雨綢繆的好習慣。","為了應付颱風，我們提早準備好了乾糧，這就是未雨綢繆。"],"臨危不亂":["地震發生時，老師臨危不亂，帶大家躲到桌子下。","優秀的領導者遇到突發狀況也能臨危不亂。"]};
+const FI=()=>SEL().map(w=>{const L=FX[w[0]]||[w[3]||w[2]];const t=L[Math.floor(Math.random()*L.length)];return{q:t.replace(w[0],"＿＿"),a:w[0],o:[w[0],...sh(DP(w)).slice(0,3).map(x=>x[0])],w}}).filter(it=>it.q.includes("＿＿"));
+const P=[["哪一句用對了「起初…後來…最後…」？","起初我很緊張，後來慢慢習慣，最後我可以自己點餐","最後我很緊張，起初我很習慣","後來我很緊張，起初我很習慣","起初我很緊張，最後慢慢習慣，後來可以點餐"],["雖然中文很難，＿＿我每天都練習。","但是","因為","如果","與其"],["他不但很聰明，＿＿很努力。","而且","但是","所以","如果"],["與其一直抱怨，＿＿想辦法解決。","不如","而且","雖然","無論"],["無論天氣多冷，他＿＿準時到校。","都","才","就","卻"],["如果你每天練習，＿＿會進步。","就","卻","而且","但是"],["「這件事讓我明白，＿＿」後面接哪一句最適合？","只要願意嘗試，困難就沒有想像中可怕","昨天天氣很好","我喜歡吃蛋餅","老師今天沒來"],["「從那天起，＿＿」後面接哪一句最適合？","我每天都練習寫日記","我昨天去了學校","我明天要考試","那天下雨了"]];
+const PI=()=>P.map(p=>({q:p[0],a:p[1],o:p.slice(1)}));
+const G=(host,items,title,n,emp)=>{let r,k,s;const go=()=>{r=sh(items()).slice(0,n||NQ);k=0;s=0;draw()};const draw=()=>{host.replaceChildren();if(!r.length){const c=el("div","card");c.append(el("p","m",emp||"還沒有標記成語，請先到成語頁標記。"));host.append(c);return}if(k>=r.length){const c=el("div","card");c.append(el("p","lead","本輪結果"),el("p","big",s+" / "+r.length));const b=el("button","go","再練一輪");b.onclick=go;c.append(b);host.append(c);return}const it=r[k],c=el("div","card");c.append(el("p","lead",title),el("p","q",it.q));const fb=el("p","fb");let ans=false;const nx=el("button","go",k+1<r.length?"下一題":"看結果");nx.hidden=true;nx.onclick=()=>{k++;draw()};sh(it.o).forEach(o=>{const b=el("button","opt",o);b.style.fontSize="16px";b.onclick=()=>{if(ans)return;ans=true;if(o===it.a){s++;b.classList.add("ok");fb.textContent="答對了！"+(it.e||"");if(it.w){wrong.delete(it.w);sv()}}else{b.classList.add("no");[...c.querySelectorAll(".opt")].find(x=>x.textContent===it.a).classList.add("ok");fb.textContent="正確答案是："+it.a+(it.e?"。"+it.e:"")+(it.r&&it.r[o]?"　你選的不對，因為："+it.r[o]:"");if(it.w){wrong.add(it.w);sv()}}nx.hidden=false};c.append(b)});c.append(fb,nx,el("p","m","第 "+(k+1)+" / "+r.length+" 題"));host.append(c)};go();return go};
+const gf=G($("#f"),FI,"選出最適合填入的成語：",8);
+const gg=G($("#g"),PI,"選出最適合的答案：",8);
+const TY={"持之以恆":["持之以衡","持之以橫","持之以桓"],"鍥而不捨":["契而不捨","鍥而不舍","栔而不捨"],"迎刃而解":["迎刀而解","迎忍而解","應刃而解"],"未雨綢繆":["未雨稠繆","未雨綢謬","未雨綢繚"],"茅塞頓開":["茅寒頓開","矛塞頓開","茅塞頓闊"],"患難與共":["換難與共","患難與供","患難予共"],"腳踏實地":["腳踩實地","腳塔實地","腳踏事地"],"循序漸進":["循序漸近","循續漸進","巡序漸進"],"精益求精":["精溢求精","精益求清","驚益求精"],"不屈不撓":["不屈不擾","不屈不饒","不曲不撓"],"全神貫注":["全神慣注","全神灌注","全神貫住"],"見賢思齊":["見嫌思齊","見賢思其","見賢思奇"],"手足無措":["手足無錯","手足無銼","手足無促"],"興高采烈":["興高彩烈","興高采列","興高采裂"],"如釋重負":["如釋重付","如識重負","如釋重附"],"飲水思源":["飲水思原","飲水思緣","引水思源"],"感同身受":["敢同身受","感同深受","感同身授"],"勇往直前":["勇往值前","湧往直前","勇往直錢"],"深思熟慮":["深思熟濾","深思熟率","深思孰慮"],"設身處地":["涉身處地","設身處他","設身處境"]};
+const TI=()=>SEL().filter(w=>TY[w[0]]).map(w=>({q:"哪一個寫法正確？（意思："+w[1]+"）",a:w[0],o:[w[0],...TY[w[0]]],w}));
+const CF=[["比賽剩最後一分鐘，選手們＿＿地衝向終點。","全力以赴",["盡心盡力","全神貫注"],"用盡所有力量衝刺，強調「力」。"],["護理師＿＿地照顧每一位病人，連小細節都不放過。","盡心盡力",["全力以赴","全神貫注"],"用盡心思照顧，強調「用心」。"],["他＿＿地盯著顯微鏡，連旁邊的吵鬧聲都沒發現。","全神貫注",["全力以赴","盡心盡力"],"精神集中在一件事上，強調「專心」。"],["她一封一封地寄履歷，＿＿，終於找到工作。","鍥而不捨",["不屈不撓","半途而廢"],"一直做同一件事不放棄，強調「不間斷」。"],["遭遇打壓和挫折時，他仍＿＿，沒有向壓力低頭。","不屈不撓",["鍥而不捨","半途而廢"],"面對逆境不低頭，強調「不屈服」。"],["找到關鍵公式之後，所有題目都＿＿。","迎刃而解",["恍然大悟","手足無措"],"問題很容易被解決，主詞是「問題」。"],["看到解答，我才＿＿：原來我漏看了一個條件。","恍然大悟",["迎刃而解","手足無措"],"突然明白某個真相，主詞是「人」。"],["聽到朋友失去了心愛的寵物，我也＿＿，眼眶都紅了。","感同身受",["設身處地","飲水思源"],"好像自己也經歷過，強調「情緒共鳴」。"],["吵架之前，先＿＿地想想對方的立場。","設身處地",["感同身受","飲水思源"],"主動站在別人的立場去想。"],["大家提出不同的想法，才想出最棒的點子，真是＿＿。","集思廣益",["同心協力","互相扶持"],"集合眾人的意見。"],["拔河時，全隊的力量往同一個方向使，這就是＿＿。","同心協力",["集思廣益","互相扶持"],"團結一心，一起努力。"]];
+const CI=()=>CF.filter(x=>[x[1],...x[2]].every(n=>sel.has(n))).map(x=>({q:x[0],a:x[1],o:[x[1],...x[2]],e:x[3]}));
+const gh=G($("#h"),TI,"選出正確的寫法：",0);
+const gi=G($("#i"),CI,"選出最適合填入的成語：",0);
+const AR=[{"t":"我的中文學習之路","p":["剛抵達台灣時，小傑的中文程度十分有限，連向早餐店老闆點一份蛋餅，都顯得[結結巴巴]。每當交談遇到[障礙]，他總是感到[氣餒]，甚至懷疑自己是否適合在這裡生活。","某天，鄰居王奶奶神情認真地告訴他：「學習語言如同[栽種]花木，只要{持之以恆}地[灌溉]，終有開花結果的一天。常言道：『[勤能補拙]』，只要肯努力，就一定追得上別人。」這番話[彷彿]一盞明燈，讓他重新[振作]，決心每天累積[詞彙]，並鼓起勇氣與人交流。","半年後，他在課堂上聽懂了老師的[幽默]，頓時{恍然大悟}：原來所有的付出，都會在[日積月累]中化為實力。"],"q":[["「這番話彷彿一盞明燈」，意思最接近下列哪一項？","這些話給了他方向和希望","他真的看見了一盞燈","王奶奶送了他一盞燈","他覺得這些話很刺眼","明燈用來比喻指引方向、帶來希望。"],["文章結尾，小傑「恍然大悟」，他領悟了什麼？","努力付出終究會轉化成實力","老師的幽默非常難懂","學語言不需要練習","王奶奶說的話都不是真的","最後一句說，所有的付出都會慢慢化為實力。"],["第二段王奶奶說「終有開花結果的一天」，「開花結果」在文中最可能象徵什麼？","長期努力之後，終於得到成果","小傑搬到有花的地方住","王奶奶的花園非常成功","小傑開始學習種花","王奶奶以栽種花木比喻學語言，開花結果指努力後有成果。",["文中的花木只是比喻，沒有提到搬家。","花園只是用來比喻的例子，不是重點。","小傑學的是語言，不是種花。"]],["為什麼小傑半年後能聽懂老師的幽默？綜合全文，下列推論何者最完整？","受王奶奶鼓勵後，他持續累積詞彙並鼓起勇氣練習，半年下來語言能力提升","他本來中文基礎就很好，只是缺少表現的機會","王奶奶每天都陪他練習對話","他參加了老師開設的特別課程","第一段說他中文有限，第二段寫他決心累積詞彙與人交流，第三段才有成果。",["第一段明說他的中文程度十分有限。","文中沒有說王奶奶每天陪他練習。","文中沒有提到特別課程。"]]]},{"t":"與人工智慧一起學習","p":["近年來，[人工智慧]的發展[日新月異]，許多學生開始向 AI 助理提問，從數學題到作文[構想]，它幾乎都能在幾秒內給出答案。","然而，小宇發現，AI 的回答並非總是正確，有時甚至看似很有把握地[編造]資訊。他提醒自己，必須{深思熟慮}，再決定是否[採用]，而不是全盤接受。","老師說過，善用工具往往能[事半功倍]。他明白，AI 就像一件工具，只要[善加運用]，並配合自己的思考，原本複雜的難題也會{迎刃而解}。"],"q":[["小宇在決定是否採用 AI 的回答前，提醒自己要怎麼做？","仔細思考後再決定","馬上全部照做","完全不再使用 AI","請別人代替他決定","他提醒自己必須深思熟慮，而不是全盤接受。"],["這篇文章最想傳達的觀點是？","善用 AI，同時保有自己的思考","學生應該完全依賴 AI","AI 已經取代所有老師","學習不再需要思考","文章強調要善加運用，並配合自己的思考。"],["第二段說 AI「看似很有把握地」編造資訊，其中的「看似」最能顯示作者什麼態度？","提醒讀者：AI 語氣自信，內容卻可能不可靠","稱讚 AI 回答時很有自信","認為 AI 是故意欺騙使用者","認為 AI 的回答一定正確","「看似」表示表面如此，實際未必，是在提醒不要被語氣說服。",["「看似」帶有保留，不是稱讚。","文中沒有說 AI 故意欺騙。","「並非總是正確」與這個選項相反。"]],["如果小宇直接把 AI 的答案抄進作業，依文章，最可能產生什麼問題？","可能抄進錯誤資訊，也錯失運用自己思考的機會","老師會因為效率很高而稱讚他","AI 會因此更新功能","作業一定會變得更正確","第二段說 AI 會編造資訊，第三段強調要配合自己的思考，合起來可推論這個後果。",["文中沒有提到老師會稱讚。","文中沒有提到 AI 會更新。","第二段說 AI 並非總是正確。"]]]},{"t":"讓人敢說真話的團隊","p":["Google 曾經研究過上百個團隊，想知道什麼樣的團隊表現最[卓越]。結果出乎意料：最重要的因素不是成員的才華，而是「[心理安全感]」，也就是大家敢於提出想法、承認錯誤，而不必擔心被嘲笑。","在這樣的團隊裡，成員可以[暢所欲言]，遇到問題時也能{集思廣益}，而不是把意見藏在心裡。當有人犯錯，大家會{設身處地}想一想，與其責怪，不如一起找出改進的辦法。","這項研究提醒我們，一個[包容]的環境，往往比單純追求效率更能[激發]潛力。因此，無論是在公司還是在班級，營造讓人安心表達的氛圍，才是團隊進步的關鍵。"],"q":[["當有人犯錯時，文章認為團隊比較好的做法是？","一起找出改進的辦法","公開責備他","假裝沒看見","立刻請他離開","第二段說與其責怪，不如一起找出改進的辦法。"],["這篇文章最後想提醒我們什麼？","營造能安心表達的氛圍，是團隊進步的關鍵","只要追求效率就夠了","團隊成員越少越好","錯誤一定要避免被人發現","最後一句說，營造安心表達的氛圍是團隊進步的關鍵。"],["第一段說「結果出乎意料」，作者的用意最可能是什麼？","暗示多數人原本以為才華最重要，結果卻不是","表示這項研究失敗了","說明 Google 不重視人才","表示研究結果沒有意義","「出乎意料」表示與一般預期不同，而下文說最重要的不是才華。",["下文有清楚的研究結論，不是失敗。","文中沒有說 Google 不重視人才。","結果被作者當成重要的提醒。"]],["如果某個班級的同學因為害怕被嘲笑，很少在課堂上發言，依本文觀點，最合理的改善方向是什麼？","營造能安心表達的氛圍，讓大家敢提出想法","要求每個人只負責自己的部分","提高考試的難度","減少小組討論的時間","文章主張心理安全感是關鍵，所以要讓成員不怕被嘲笑地表達。",["這不能解決害怕被嘲笑的問題。","文章沒有談考試難度。","減少討論會讓表達機會更少。"]]]},{"t":"從英文影片學知識","p":["小安從小就習慣觀看英文 YouTube，從科學實驗到太空探索，他總是{全神貫注}地看完整支影片。起初他只能依靠字幕，後來漸漸能聽懂關鍵字詞，甚至[模仿]主持人的語調。","然而，網路上的資訊[良莠不齊]，並非每支影片都可靠。小安學會了[查證]來源，也會比較不同頻道的說法。有一次，一位老師的講解讓他{茅塞頓開}，原來自己先前誤解了一個科學概念。","古人說：「[兼聽則明]。」多參考不同來源，才不容易被單一觀點[誤導]。小安相信，只要保持好奇心與判斷力，網路就能成為他[拓展]視野的最好教室。"],"q":[["小安為什麼要查證來源？","因為網路資訊良莠不齊，不一定可靠","因為影片太短","因為字幕太難","因為不想看影片","第二段說網路資訊良莠不齊，所以他學會查證來源。"],["這篇文章主要想傳達什麼？","保持好奇與判斷力，網路可以幫助學習","網路上的資訊都不可信","學習只能靠書本","看影片會讓人變笨","最後一句說保持好奇心與判斷力，網路能成為最好的教室。"],["第二段開頭的「然而」，在文章中的作用是什麼？","由第一段的優點，轉向提醒網路資訊的缺點","繼續稱讚英文影片","表示小安不再看影片","表示小安放棄學英文","「然而」表示轉折，後面談網路資訊良莠不齊。",["「然而」是轉折，不是繼續稱讚。","文章後面小安仍然在看影片。","文中沒有提到他放棄英文。"]],["小安「原來自己先前誤解了一個科學概念」，綜合第二段，最合理的推論是什麼？","他比較過不同來源，才發現先前的理解有誤","他從沒看過其他影片，是老師主動聯絡他","他聽不懂英文，所以全靠猜測","他不信任影片，所以全部放棄","第二段說他學會查證並比較不同頻道，之後才在老師的講解中發現誤解。",["文中沒有說老師主動聯絡他。","第一段說他漸漸能聽懂字詞。","文章最後他仍然肯定網路的價值。"]]]},{"t":"蜘蛛人的啟示","p":["蜘蛛人於 1962 年首度在漫畫中登場，由作家史丹·李與畫家史蒂夫·迪特科共同創作。與許多出身[顯赫]的英雄不同，主角彼得·帕克只是個[平凡]的高中生，既要煩惱功課，也要擔心家裡的生活開銷。","一次意外，他被一隻特殊的蜘蛛咬傷，從此擁有[敏捷]的身手與超乎常人的力量。起初，他把這些能力當作炫耀的工具，直到親人因他的[疏忽]而遭遇不幸，他才{恍然大悟}：力量越大，責任也越重。","此後，無論面對多麼強大的敵人，他都{全力以赴}，守護這座城市。蜘蛛人之所以深受喜愛，不只是因為精采的戰鬥場面，更因為他在[兩難]之間依然[擔當]起責任。這份精神，使這個角色[歷久不衰]。"],"q":[["「力量越大，責任也越重」想表達什麼意思？","擁有能力的人，應該承擔相對的責任","力量越大，越可以隨心所欲","責任和力量毫無關係","只有普通人才需要負責","能力愈強，愈應該負責，這是蜘蛛人領悟的道理。"],["作者認為蜘蛛人深受喜愛的最主要原因是什麼？","他在兩難之間依然願意承擔責任","他的戰鬥場面比其他英雄更精采","他是所有英雄中最有錢的","他從來不會犯錯","第三段說不只是戰鬥場面，更因為他在兩難中仍擔起責任。"],["第二段說他「起初」把能力當作炫耀的工具，作者使用「起初」的用意是什麼？","暗示他當時還不成熟，為後面的領悟做鋪陳","稱讚他懂得運用能力","責怪他沒有早點離開家","說明他的能力其實沒有用","「起初」表示後來有改變，與「直到…才恍然大悟」互相呼應。",["文章沒有稱讚他炫耀。","文中沒有提到離家。","文章說他擁有超乎常人的力量。"]],["綜合第一段與第三段，蜘蛛人能引起讀者共鳴，最主要的原因是什麼？","他是有能力的英雄，也有一般人的煩惱，並在兩難中選擇承擔","他出身顯赫，所以令人羨慕","他的力量比所有英雄都強","他從不為生活煩惱","第一段寫他平凡又有煩惱，第三段寫他在兩難中擔起責任，兩者結合才有共鳴。",["第一段說他不是出身顯赫的英雄。","文中沒有比較力量大小。","第一段說他要擔心生活開銷。"]]]},{"t":"外婆的菜園","p":["外婆的菜園就在老家後面，不過[巴掌大]，卻種滿了絲瓜、地瓜葉和幾排青蔥。小時候，我最怕暑假被送回鄉下，因為那裡沒有冷氣，也沒有電動玩具。每天清晨，外婆總是天未亮就拉著我到菜園澆水，我一邊打哈欠，一邊嘟囔著：「買菜不就好了，何必這麼辛苦？」外婆只是笑了笑，沒有回答。","有一年夏天，颱風過後，菜園被吹得[東倒西歪]，我以為外婆會難過，沒想到她挽起袖子，一株一株地把倒下的菜苗扶正，還邊扶邊哼著小曲。我忍不住蹲下來幫忙，指尖沾滿了泥土，卻第一次覺得，那泥土的氣味竟然這麼[踏實]。","後來我上了國中，回鄉的次數越來越少。去年外婆搬到城裡，菜園也[荒廢]了，可是每當我在超市看見一把青蔥，就會想起那個清晨，還有外婆蹲在田裡的背影。我才明白，她種的從來不只是菜，而是一份不被風雨打倒的[溫柔]。"],"q":[["「外婆只是笑了笑，沒有回答」，最可能的原因是什麼？","外婆認為用行動比用言語，更能讓孫子明白種菜的意義","外婆沒有聽見孫子的抱怨","外婆覺得孫子的問題很愚蠢","外婆其實也不知道該怎麼回答","後文外婆用扶起菜苗的行動，讓「我」體會踏實，可見她不靠言語解釋。",["文中沒有說外婆沒聽見，她後來的行動也顯示她很清楚。","外婆始終溫和，文章沒有輕視孫子的描寫。","外婆後來的行動非常堅定，並不是不知道。"]],["下列敘述，何者「不符合」文意？","作者現在仍然每年暑假回鄉，幫外婆種菜","作者小時候不喜歡暑假回鄉下","外婆搬到城裡後，菜園逐漸荒廢","作者在超市看見青蔥，會想起外婆","第三段說「回鄉的次數越來越少」，所以不是每年暑假都回去種菜。",["第一段有寫，這是符合文意的敘述。","第三段有寫，這是符合文意的敘述。","第三段有寫，這是符合文意的敘述。"]],["第二段說「那泥土的氣味竟然這麼踏實」，其中的「竟然」表現「我」什麼心情？","對自己有這樣的感受感到意外","對外婆感到生氣","對泥土感到噁心","對颱風感到害怕","「竟然」表示與預期不同，「我」原本抗拒，卻意外地覺得踏實。",["文中沒有生氣的描寫。","文中說的是踏實，不是噁心。","這句重點在泥土的感受，不是害怕。"]],["綜合全文，「我」一開始問外婆「何必這麼辛苦」，最後怎麼得到答案？","外婆沒有直接回答，「我」透過颱風後的情景與日後的回憶，自己領悟","外婆後來在電話中直接解釋","「我」讀了書才明白","「我」到最後仍不明白","第一段外婆沒回答，第二段親身幫忙，第三段以回憶總結，才說「我才明白」。",["文中沒有提到電話。","文中沒有提到讀書。","末句說「我才明白」，所以不是不明白。"]]]},{"t":"為什麼天空是藍色的","p":["晴朗的白天，抬頭望去，天空總是一片[湛藍]。這個再平常不過的現象，背後卻藏著有趣的科學道理。","太陽光看起來是白色的，其實是由紅、橙、黃、綠、藍、靛、紫等各種顏色的光混合而成。當陽光進入[大氣層]，會遇到空氣中的氣體分子。這些分子會把光線朝四面八方[散射]開來，而且[波長]越短的光，被散射得越厲害。藍光的波長比紅光短，因此在天空中被散射得特別多，遍布整個天空，我們看到的天空便呈現藍色。","那麼，紫光的波長更短，天空為什麼不是紫色呢？這是因為陽光中的紫光本來就比較少，加上我們的眼睛對藍光比對紫光更[敏感]，所以最後感受到的主要是藍色。","到了日出或日落時，陽光必須穿過更厚的大氣層才能到達我們眼中，大部分藍光在途中已被散射到其他方向，剩下的紅光、橙光便讓天邊染上一片橘紅。"],"q":[["下列關於天空顏色的說明，何者「錯誤」？","紫光的波長比藍光長，所以比較少被散射","波長較短的光，比較容易被散射","人眼對藍光比對紫光敏感","日落時，大部分藍光在途中已被散射到其他方向","文中說紫光的波長比藍光更短，所以「紫光波長較長」是錯誤的。",["這是文章的說法，是正確的敘述。","第三段有寫，是正確的敘述。","第四段有寫，是正確的敘述。"]],["下列哪一種現象，最能支持「光穿過的大氣越厚，藍光被散射掉得越多」？","日落時，天邊呈現橘紅色","正午的天空是藍色的","夜晚看不到太陽","雲看起來是白色的","日落時光走較長的路，藍光被散射掉，剩下紅橙光，正好支持這個說法。",["這是一般的藍天現象，沒有比較光穿過大氣厚度的差異。","這與大氣厚度和藍光散射無關。","雲的顏色不是本文討論的重點。"]],["第三段開頭問「天空為什麼不是紫色呢」，作者提出這個問句的目的是什麼？","預先提出讀者可能的疑問，再加以解答","表示作者也不知道答案","質疑前面的說明是錯的","邀請讀者自己做實驗","前面說波長越短越容易被散射，讀者可能會問紫光，作者先提出再說明。",["作者在下文給了解釋。","問句是補充說明，不是質疑。","文中沒有提到實驗。"]],["如果在一個完全沒有大氣層的星球上看天空，最可能是什麼樣子？","接近黑色，因為沒有氣體分子把光散射到各個方向","和地球一樣是藍色","一片紅色","一片白色","文章說藍天來自氣體分子散射陽光，沒有大氣就沒有散射，天空看起來是黑的。",["沒有氣體分子，就沒有藍光被散射。","沒有散射，也不會變成紅色。","沒有散射，天空不會佈滿白光。"]]]},{"t":"失敗是不是浪費","p":["許多人把失敗視為丟臉的事，彷彿一次跌倒，便代表自己不夠好。然而，失敗真的毫無價值嗎？","愛迪生研發電燈時，曾嘗試過許多種材料，每一次不成功，他都將結果記錄下來，相傳還說自己只是「又找到一種不適合的方法」。如果他當初因為[屢次]失敗就放棄，後人也許還要在黑暗中[摸索]更久。可見，失敗本身並不可怕，可怕的是失敗之後，一無所獲。","有人也許會[反駁]：許多人努力了很久，最後仍然沒有成功，這些時間豈不是白白浪費？但我認為，只要用心[檢討]，失敗所累積的經驗與判斷力，都會成為下一次行動的基礎；反過來說，若只是一再重複相同的錯誤，卻不肯回頭反省，那麼即使成功了，也只是[僥倖]。","因此，失敗是不是浪費，關鍵不在結果，而在於我們是否從中學習。"],"q":[["作者認為「失敗之後，一無所獲」比失敗本身更可怕，最主要的理由是什麼？","失敗若沒有帶來經驗與反省，努力就失去累積的價值","失敗是一件丟臉的事，無法避免","沒有成果，就代表一個人不夠努力","別人會嘲笑沒有收穫的人","作者強調關鍵是能否從失敗中學習，沒有收穫才是真正的浪費。",["這是第一段提到的看法，作者並不同意。","作者沒有這樣說，他重視的是有沒有學習。","文章沒有談到別人的看法。"]],["下列敘述，何者「不符合」作者的看法？","只要最後成功了，過程中的失敗就沒有任何意義","用心檢討的失敗，能累積判斷力","不肯反省的成功，只是僥倖","失敗是不是浪費，關鍵在是否學習","作者認為失敗中的經驗與判斷力，是下一次行動的基礎，並非沒有意義。",["第三段有寫，符合作者的看法。","第三段有寫，符合作者的看法。","第四段的結論，符合作者的看法。"]],["第二段說「可見，失敗本身並不可怕，可怕的是失敗之後，一無所獲」，這句話的作用是什麼？","由例子歸納出觀點，並把「可怕」的重點轉移到有沒有收穫","質疑愛迪生的做法","表示失敗一定很可怕","說明電燈的發明過程","「可見」表示由前面的例子得出結論，並把重點放在是否一無所獲。",["作者是借愛迪生的例子支持論點。","句中說失敗本身並不可怕。","作者的目的是歸納觀點，不是說明過程。"]],["如果有人說：「失敗太多次了，乾脆放棄比較省時間」，依本文，作者最可能怎麼回應？","重點不是次數，而是每次失敗後有沒有檢討並累積經驗","同意，放棄最省時間","失敗只要多做幾次，就會自動成功","失敗不需要檢討","作者主張失敗是否浪費，關鍵在是否從中學習，而不是次數。",["作者並不同意放棄就是最好。","作者反對一再重複相同的錯誤。","作者強調檢討的重要。"]]]},{"t":"班級課後時間調查","p":["下表是某國中九年級一個班級，平日（週一至週五）與週末，平均每人每天花在各項活動上的時間，單位是分鐘。（資料為虛構，僅供練習）"],"tbl":{"h":["活動","平日（分鐘）","週末（分鐘）"],"r":[["寫作業與複習","90","120"],["閱讀課外書","20","45"],["使用手機娛樂","60","150"],["運動","30","60"]]},"q":[["平日「閱讀課外書」與「運動」的時間加起來，和週末「閱讀課外書」的時間相比，結果如何？","多 5 分鐘","少 5 分鐘","一樣多","多 15 分鐘","20＋30＝50，比週末閱讀的 45 多 5 分鐘。",["50 比 45 大，不是少。","50 與 45 並不相同。","50－45＝5，不是 15。"]],["根據表格，下列推論何者最合理？","週末時間比較自由，手機娛樂的時間明顯增加","平日的手機娛樂時間比寫作業與複習更長","這個班級的同學都不運動","週末時間最長的活動是閱讀課外書","週末手機娛樂比平日多 90 分鐘，可以推論週末較自由。",["平日手機是 60 分鐘，少於寫作業的 90 分鐘。","表中運動平日有 30 分鐘，週末有 60 分鐘。","週末最長的是手機娛樂，有 150 分鐘。"]],["若這個班級共有 30 人，週末「使用手機娛樂」全班加起來，平均每天一共花多少分鐘？","4500 分鐘","450 分鐘","1800 分鐘","3000 分鐘","週末手機是每人 150 分鐘，150 × 30 ＝ 4500。",["小數點位置錯了，150 × 30 ＝ 4500。","1800 是平日 60 分鐘乘以 30 的結果。","150 × 30 不等於 3000。"]],["下列哪一項活動，週末的時間「恰好是」平日時間的兩倍？","運動","寫作業與複習","閱讀課外書","使用手機娛樂","運動從 30 變成 60，恰好是兩倍。",["120 ÷ 90 不到 2 倍。","45 ÷ 20 ＝ 2.25 倍，不是恰好兩倍。","150 ÷ 60 ＝ 2.5 倍，不是恰好兩倍。"]]]},{"t":"論語選讀三則","p":["子曰：「學而不思則[罔]，思而不學則[殆]。」","子曰：「知之為知之，不知為不知，是知也。」","子曰：「三人行，必有我師焉；[擇]其善者而從之，其不善者而改之。」","（選自《論語》為政、述而。）"],"q":[["「學而不思則罔，思而不學則殆」，意思最接近下列哪一項？","只學習不思考會迷惘，只思考不學習會疑惑不安","學習比思考更重要","思考比學習更重要","學習和思考都不需要","前半句說學而不思會迷惘，後半句說思而不學會疑惑不安，兩者要並重。",["文句是學習與思考並重，沒有說學習比較重要。","文句是學習與思考並重，沒有說思考比較重要。","文句強調兩者都需要，而不是都不需要。"]],["下列哪一個情境，最符合「擇其善者而從之，其不善者而改之」？","看到同學愛整理筆記就學習，發現自己也會拖延就改進","看到別人的缺點就大聲批評","只和跟自己相同的人做朋友","完全不理會別人的做法","學別人的優點，並以別人的缺點提醒自己改進，才符合這句話。",["只批評別人，沒有學習或改進。","只和相同的人相處，就無法學到別人的優點。","完全不理會別人，就無從選擇和改進。"]],["「知之為知之，不知為不知，是知也」，第一個「知」與最後一個「知」，意思分別是什麼？","前者是「知道」，後者通「智」，指智慧","兩個都是「認識的人」","兩個都是「知識」","前者是智慧，後者是知道","最後的「知」讀作「智」，意思是智慧；前面的「知」是知道。",["文句談的是知道與不知道，不是認識人。","最後的「知」不是知識，而是智慧。","前後的意思顛倒了。"]],["綜合三則，下列哪一位學習者的做法最符合孔子的主張？","讀書時多思考，不懂就誠實承認並請教，也學別人的優點、改自己的缺點","只背書不思考，假裝都懂，只看別人的缺點","只靠自己思考，不看書也不問人","只模仿成績好的人，不反省自己","三則分別談學思並重、誠實面對不知道、向人學習並改進，這個選項全部符合。",["只背書不思考，違反第一則；假裝懂違反第二則。","思而不學，違反第一則，也沒有向人學習。","只模仿不反省，沒有做到改進自己的缺點。"]]]}];
+const HW={"結結巴巴":["ㄐㄧㄝˊ ㄐㄧㄝˊ ㄅㄚ ㄅㄚ","說話不流暢、斷斷續續的樣子。",""],"障礙":["ㄓㄤˋ ㄞˋ","阻擋前進，或讓事情不順利的事物。",""],"氣餒":["ㄑㄧˋ ㄋㄟˇ","失去信心和勇氣。",""],"栽種":["ㄗㄞ ㄓㄨㄥˋ","把植物種在土裡。",""],"灌溉":["ㄍㄨㄢˋ ㄍㄞˋ","把水引到田地或花木上，讓它們生長。",""],"彷彿":["ㄈㄤˇ ㄈㄨˊ","好像、似乎。",""],"振作":["ㄓㄣˋ ㄗㄨㄛˋ","重新打起精神。",""],"詞彙":["ㄘˊ ㄏㄨㄟˋ","語言中的詞語，這裡指單字和詞語。",""],"幽默":["ㄧㄡ ㄇㄛˋ","有趣又讓人會心一笑的說話方式。",""],"勤能補拙":["ㄑㄧㄣˊ ㄋㄥˊ ㄅㄨˇ ㄓㄨㄛˊ","資質不夠好，只要勤奮努力，就能彌補不足。","範圍外名言"],"日積月累":["ㄖˋ ㄐㄧ ㄩㄝˋ ㄌㄟˇ","長時間一點一點地累積。","範圍外成語"],"人工智慧":["ㄖㄣˊ ㄍㄨㄥ ㄓˋ ㄏㄨㄟˋ","讓電腦模仿人的思考與學習能力的技術。",""],"構想":["ㄍㄡˋ ㄒㄧㄤˇ","事先想出來的點子或計畫。",""],"編造":["ㄅㄧㄢ ㄗㄠˋ","憑空捏造不存在的事情。",""],"採用":["ㄘㄞˇ ㄩㄥˋ","選擇並使用。",""],"善加運用":["ㄕㄢˋ ㄐㄧㄚ ㄩㄣˋ ㄩㄥˋ","好好地利用。",""],"日新月異":["ㄖˋ ㄒㄧㄣ ㄩㄝˋ ㄧˋ","每天每月都有新的變化，形容進步很快。","範圍外成語"],"事半功倍":["ㄕˋ ㄅㄢˋ ㄍㄨㄥ ㄅㄟˋ","花的力氣少，成果卻很大。","範圍外成語"],"卓越":["ㄓㄨㄛˊ ㄩㄝˋ","非常優秀，超出一般水準。",""],"心理安全感":["ㄒㄧㄣ ㄌㄧˇ ㄢ ㄑㄩㄢˊ ㄍㄢˇ","覺得說出想法或犯錯，也不會被嘲笑或懲罰的安心感覺。",""],"暢所欲言":["ㄔㄤˋ ㄙㄨㄛˇ ㄩˋ ㄧㄢˊ","毫無顧慮地把想說的話都說出來。","範圍外成語"],"包容":["ㄅㄠ ㄖㄨㄥˊ","接受並尊重不同的想法和人。",""],"激發":["ㄐㄧ ㄈㄚ","引出並增強潛力或熱情。",""],"模仿":["ㄇㄛˊ ㄈㄤˇ","照著別人的樣子去做。",""],"良莠不齊":["ㄌㄧㄤˊ ㄧㄡˇ ㄅㄨˋ ㄑㄧˊ","好的和不好的混在一起，品質參差不齊。","範圍外成語"],"查證":["ㄔㄚˊ ㄓㄥˋ","調查並確認是否真實。",""],"兼聽則明":["ㄐㄧㄢ ㄊㄧㄥ ㄗㄜˊ ㄇㄧㄥˊ","多聽各方的意見，才能看清事情的真相。","範圍外名言"],"誤導":["ㄨˋ ㄉㄠˇ","引導到錯誤的方向。",""],"拓展":["ㄊㄨㄛˋ ㄓㄢˇ","向外擴大。",""],"巴掌大":["ㄅㄚ ㄓㄤˇ ㄉㄚˋ","形容面積很小，像手掌一樣大。",""],"東倒西歪":["ㄉㄨㄥ ㄉㄠˇ ㄒㄧ ㄨㄞ","傾斜倒下、不整齊的樣子。","範圍外成語"],"荒廢":["ㄏㄨㄤ ㄈㄟˋ","田地或房屋沒有人管理，變得破敗。",""],"踏實":["ㄊㄚˋ ㄕˊ","心裡安定，不浮躁。",""],"溫柔":["ㄨㄣ ㄖㄡˊ","態度和氣、體貼，充滿關愛。",""],"湛藍":["ㄓㄢˋ ㄌㄢˊ","清澈而深的藍色。",""],"大氣層":["ㄉㄚˋ ㄑㄧˋ ㄘㄥˊ","包圍在地球外面的一層空氣。",""],"散射":["ㄙㄢˋ ㄕㄜˋ","光線碰到微小的粒子後，朝各個方向散開。",""],"波長":["ㄅㄛ ㄔㄤˊ","光波的長度，不同顏色的光，波長不同。",""],"敏感":["ㄇㄧㄣˇ ㄍㄢˇ","對外界的刺激反應很快、很強。",""],"屢次":["ㄌㄩˇ ㄘˋ","一次又一次。",""],"摸索":["ㄇㄛ ㄙㄨㄛˇ","在不熟悉的情況下，一邊嘗試一邊尋找方法。",""],"反駁":["ㄈㄢˇ ㄅㄛˊ","提出理由，駁斥別人的意見。",""],"檢討":["ㄐㄧㄢˇ ㄊㄠˇ","回顧過程，找出問題並加以改進。",""],"僥倖":["ㄐㄧㄠˇ ㄒㄧㄥˋ","沒有付出足夠的努力，卻意外得到好結果。",""],"顯赫":["ㄒㄧㄢˇ ㄏㄜˋ","名聲、地位或權勢很大，十分突出。",""],"平凡":["ㄆㄧㄥˊ ㄈㄢˊ","很普通，沒有特別突出的地方。",""],"敏捷":["ㄇㄧㄣˇ ㄐㄧㄝˊ","動作快速而靈活。",""],"疏忽":["ㄕㄨ ㄏㄨ","因為不夠小心，而沒有注意到。",""],"兩難":["ㄌㄧㄤˇ ㄋㄢˊ","兩邊都有困難，不知道該怎麼選擇。",""],"擔當":["ㄉㄢ ㄉㄤ","承擔責任。",""],"歷久不衰":["ㄌㄧˋ ㄐㄧㄡˇ ㄅㄨˋ ㄕㄨㄞ","經過很長的時間，仍然受人喜愛、不會衰退。","範圍外成語"],"罔":["ㄨㄤˇ","迷惘，沒有收穫。",""],"殆":["ㄉㄞˋ","疑惑不安，也有危險的意思。",""],"擇":["ㄗㄜˊ","選擇。",""]};
+const R=$("#r"),tp=el("div","tipw"),AC=el("div"),SL=el("div","sl"),QH=el("div");let cur=0;tp.hidden=true;AC.id="ac";QH.id="qh";
+R.append(SL,AC,QH,tp);
+let tt;const hide=()=>{clearTimeout(tt);tp.hidden=true},hideLater=()=>{tt=setTimeout(()=>{tp.hidden=true},280)};tp.onmouseenter=()=>clearTimeout(tt);tp.onmouseleave=hideLater;tp.onclick=e=>e.stopPropagation();
+const togW=w=>{if(VS.has(w)){VS.delete(w);(HB.get(w)||[]).forEach(x=>x.classList.remove("sv"))}else{VS.add(w);(HB.get(w)||[]).forEach(x=>x.classList.add("sv"))}svv();syncVB();rvv()};
+const showT=(b,w)=>{const d=HW[w],o=[w];o.zy=d[0].split(" ");tp.replaceChildren();const h=el("p","tw");h.append(rb(o));tp.append(h,el("p","tm",d[1]));if(d[2])tp.append(el("p","tg",d[2]));const cb=el("button","pb",VS.has(w)?"★ 已收藏（點此取消）":"☆ 收藏到生字本");cb.style.margin="8px 0 0";cb.onclick=e=>{e.stopPropagation();togW(w);cb.textContent=VS.has(w)?"★ 已收藏（點此取消）":"☆ 收藏到生字本"};tp.append(cb);clearTimeout(tt);tp.hidden=false;const r=b.getBoundingClientRect();let x=Math.max(8,Math.min(r.left,innerWidth-tp.offsetWidth-8)),y=r.bottom+4;if(y+tp.offsetHeight>innerHeight-8)y=Math.max(8,r.top-tp.offsetHeight-8);tp.style.left=x+"px";tp.style.top=y+"px"};
+const gq=G(QH,()=>AR[cur].q.map(x=>({q:x[0],a:x[1],o:[x[1],x[2],x[3],x[4]],e:x[5],r:x[6]?{[x[2]]:x[6][0],[x[3]]:x[6][1],[x[4]]:x[6][2]}:null})),"閱讀理解：",4);
+function ra(){HB.clear();AC.replaceChildren();const a=AR[cur],c=el("div","card");c.append(el("p","w",a.t));a.p.forEach(t=>{const p=el("p","rd");t.split(/(\{[^}]+\}|\[[^\]]+\])/).forEach(s=>{if(s[0]==="{"){p.append(el("span","idm",s.slice(1,-1)))}else if(s[0]==="["){const w=s.slice(1,-1),b=el("button","hw",w);b.onmouseenter=()=>showT(b,w);b.onmouseleave=hideLater;b.onfocus=()=>showT(b,w);b.onblur=hideLater;if(VS.has(w))b.classList.add("sv");(HB.get(w)||HB.set(w,[]).get(w)).push(b);b.onclick=e=>{e.stopPropagation();showT(b,w)};p.append(b)}else p.append(document.createTextNode(s))});c.append(p)});if(a.tbl){const t=el("table","tbl"),hr=el("tr");a.tbl.h.forEach(x=>hr.append(el("th","",x)));t.append(hr);a.tbl.r.forEach(r=>{const tr=el("tr");r.forEach(x=>tr.append(el("td","",x)));t.append(tr)});c.append(t)}AC.append(c);[...SL.children].forEach((b,k)=>{const on=k===cur;b.style.background=on?"var(--acc)":"transparent";b.style.color=on?"var(--onacc)":"var(--acc)"});hide();gq()}
+AR.forEach((a,k)=>{const b=el("button","pb",a.s||a.t);b.onclick=()=>{cur=k;ra()};SL.append(b)});
+document.addEventListener("click",hide);ra();
+const V=$("#v"),VL=el("div"),VQ=el("div");V.append(VL,VQ);
+const inf=w=>{if(HW[w])return{z:HW[w][0].split(" "),e:HW[w][1],t:HW[w][2]};const x=W.find(v=>v[0]===w);return x?{z:x.zy,e:x[1],t:"成語頁"}:null};
+const VP=()=>[...Object.keys(HW),...W.map(x=>x[0])];
+const VI=()=>[...VS].filter(inf).map(w=>({q:"哪一個詞的意思是："+inf(w).e,a:w,o:[w,...sh(VP().filter(k=>k!==w)).slice(0,3)]}));
+const gv=G(VQ,VI,"看解釋，選出詞語：",0,"還沒有收藏詞語。");
+function rvv(){VL.replaceChildren();const ws=[...VS].filter(inf);VL.append(el("p","m",ws.length?"已收藏 "+ws.length+" 個詞語":"還沒有收藏的詞語"));const g=el("div","vg");ws.forEach(w=>{const d=inf(w),o=[w];o.zy=d.z;const c=el("div","card"),h=el("p","w");h.append(rb(o));c.append(h,el("p","m",d.e));if(d.t)c.append(el("p","tg",d.t));const b=el("button","pb","移除");b.onclick=()=>{VS.delete(w);svv();(HB.get(w)||[]).forEach(x=>x.classList.remove("sv"));syncVB();rvv()};c.append(b);g.append(c)});VL.append(g);gv()}
+rvv();
+const RG=$("#rg"),SN=$("#sn");
+function upd(){rc();RG.replaceChildren();const mk=(x,f,on)=>{const b=el("button","pb",x);b.style.marginRight="6px";if(on){b.style.background="var(--acc)";b.style.color="var(--bg)"}b.onclick=f;return b};
+RG.append(el("p","m",sel.size?"練習範圍：已標記 "+sel.size+" 個成語":"還沒有標記成語，請先到成語頁標記"),mk("學過了＋需多練習",()=>{PM=0;spm();upd()},!PM),mk("只練需多練習的",()=>{PM=1;spm();upd()},!!PM));
+const nd=el("div");nd.style.marginTop="6px";nd.append(document.createTextNode("每輪題數："));[5,10].forEach(n=>{const b=el("button","pb",n+" 題");b.style.margin="0 6px 0 0";if(NQ===n){b.style.background="var(--acc)";b.style.color="var(--bg)"}b.onclick=()=>{NQ=n;try{localStorage.setItem("cy-n",String(n))}catch(e){}upd()};nd.append(b)});RG.append(nd);
+start();gf();gg();gh();gi();dstart()}
+const subs=[["c","選成語"],["f","填空"],["h","錯別字"],["i","辨析"],["g","句型"],["d","選名言"]];
+const pick=k=>{subs.forEach(x=>$("#"+x[0]).hidden=x[0]!==k);[...SN.children].forEach(b=>{const on=b.dataset.k===k;b.style.background=on?"var(--acc)":"var(--accbg)";b.style.color=on?"var(--bg)":"var(--acc)"})};
+subs.forEach(x=>{const b=el("button","pb",x[1]);b.dataset.k=x[0];b.style.margin="0";b.onclick=()=>pick(x[0]);SN.append(b)});
+pick("c");upd();
+let last="a";const NB=document.querySelectorAll("nav button"),fab=$("#fab");
+fab.onclick=()=>{if(!$("#p").hidden){NB.forEach(b=>{if(b.dataset.t===last)b.click()});return}["a","b","r","v"].forEach(k=>$("#"+k).hidden=true);$("#p").hidden=false;NB.forEach(b=>b.setAttribute("aria-selected",false));$("#up").hidden=true;fab.textContent="← 返回";window.scrollTo(0,0)};
+$("#up").onclick=()=>{tg(true);tb.scrollIntoView({behavior:"smooth",block:"start"})};
+// Tabs
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
+document.querySelectorAll("nav button").forEach(x=>x.setAttribute("aria-selected",x===b));
+last=b.dataset.t;["a","b","r","v","p"].forEach(k=>$("#"+k).hidden=k!==last);fab.textContent="練習";$("#up").hidden=last!=="a";window.scrollTo(0,0)});
+</script>
+</body>
+</html>
